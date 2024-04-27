@@ -1,4 +1,4 @@
 *.o
 main
-
+*.exe
 #編譯出來的都別船上去github

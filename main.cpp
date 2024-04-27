@@ -1,15 +1,18 @@
 #include <iostream>
 
-int Foo(){ //A student
+int Foo(){ //B student
 
 }
 
-int Bar(){ //B student
-
+int Bar(){ //A student
+    std::cout << "Hello bAR" << std::endl;
 }
 
 int main(){
     std::cout << "Hello World" << std::endl;
+
+    Bar();
+
     return 0;
 
 }
