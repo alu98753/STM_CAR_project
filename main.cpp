@@ -9,7 +9,8 @@ int Bar(){ //A student
     std::cout << "Hello bAR" << std::endl;
 }
 
-int Bar(){//A student
+int Foo2(){ //B student
+    std::cout << "Hello FOO2" << std::endl;
 
 }
 
@@ -18,6 +19,7 @@ int main(){
     
     Bar();
     Foo();
+    Foo2();
     return 0;
 
 }
