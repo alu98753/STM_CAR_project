@@ -1,4 +1,5 @@
 *.o
 main
 *.exe
+*.vscode
 #編譯出來的都別船上去github
